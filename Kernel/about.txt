@@ -1,0 +1,2 @@
+Kernel do LerDOS, monolítico.
+Escrito em C e ASM
