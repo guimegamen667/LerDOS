@@ -9,5 +9,3 @@ efi_main (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
   Print(L"Hello, world!\n");
   return EFI_SUCCESS;
 }
-
-//Esse seria um software EFI misturado com um kernel?

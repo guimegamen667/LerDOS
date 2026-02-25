@@ -1,2 +1,8 @@
 BootyLoader is the bootloader for LerDOS.
 It's written in C and ASM.
+
+só compila se tiver essa porra aqui (estudar o motivo, por favor, eu nao quero rodar oq nao sei):
+
+i686-elf-gcc -I./inc -fpic -ffreestanding -fno-stack-protector -fno-stack-check \
+          -fshort-wchar -mno-red-zone -maccumulate-outgoing-args \
+          -DGNU_EFI_USE_MS_ABI -c main.c -o main.o
