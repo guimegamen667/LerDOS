@@ -1,0 +1,2 @@
+BootyLoader is the bootloader for LerDOS.
+It's written in C and ASM.
