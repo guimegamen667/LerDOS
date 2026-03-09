@@ -6,3 +6,7 @@ só compila se tiver essa porra aqui (estudar o motivo, por favor, eu nao quero 
 i686-elf-gcc -I./inc -fpic -ffreestanding -fno-stack-protector -fno-stack-check \
           -fshort-wchar -mno-red-zone -maccumulate-outgoing-args \
           -DGNU_EFI_USE_MS_ABI -c main.c -o main.o
+
+Possivel resposta (visto no gemini):
+Só compila por esse comando por que ele ignora as bibiotecas do SO onde compilamos e ele modifica o caminho dos headers
+deixando essa compilacao completamente livre de buscar libs erradas e desnecessarias ( por isso eh um cross-compiler :) )
