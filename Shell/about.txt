@@ -1,0 +1,11 @@
+The shell that LerDOS uses is called Kish (Kernel-integrated shell), and it uses a scripting language called Zbra.
+It's supposed to work like BASIC, but less of a pain in the ass.
+An example a program in Zbra would be:
+
+1 print "hello world!"
+2 input var "hello: "
+3 var is "world" run 10
+4 halt
+10 print "correct"
+
+Later, it will probably be replaced with a POSIX-compliant shell.
