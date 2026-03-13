@@ -1,0 +1,3 @@
+Goreutils is the LerDOS implementation of Coreutils for the Kish shell, even though its not POSIX compliant.
+
+It is not compatible with coreutils and does not aim to be so.
